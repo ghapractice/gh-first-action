@@ -10,3 +10,5 @@ jobs:
         echo "This is 3rd workflow 2nd line"
         echo "This is 3rd workflow 3rd line"
         echo "This is 3rd workflow 4th line"
+        ls -ltr
+        lsns
