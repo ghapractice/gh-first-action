@@ -1,0 +1,11 @@
+name: second workflow
+on: workflow_dispatch
+jobs:
+  second-workflow:
+    runs-on: debian-latest
+    steps:
+      - name: "First step for second workflow job"
+        run: echo "This is the first step in the second workflow"
+      - name: "second step for second workflow job"
+        run: echo "This is the second step in the second workflow"
+  
