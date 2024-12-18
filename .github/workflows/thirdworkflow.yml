@@ -5,4 +5,8 @@ jobs:
     runs-on: ubuntu:latest
   steps:
    - name: This is Third Workflow Job1
-     run: echo "This is 3rd workflow 1st line"
+     run: |
+      echo "This is 3rd workflow 1st line"
+      echo "This is 3rd workflow 2nd line"
+      echo "This is 3rd workflow 3rd line"
+      echo "This is 3rd workflow 4th line"
