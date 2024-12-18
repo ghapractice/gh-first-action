@@ -2,7 +2,7 @@ name: second workflow
 on: workflow_dispatch
 jobs:
   second-workflow:
-    runs-on: debian:buster
+    runs-on: ubuntu-20.04
     steps:
       - name: "First step for second workflow job"
         run: echo "This is the first step in the second workflow"
